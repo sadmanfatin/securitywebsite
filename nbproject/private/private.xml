@@ -5,11 +5,11 @@
         <group>
             <file>file:/F:/xampp/htdocs/securitywebsite/application/views/sharedviews/top.php</file>
             <file>file:/F:/xampp/htdocs/securitywebsite/assets/js/new.js</file>
+            <file>file:/F:/xampp/htdocs/securitywebsite/application/controllers/welcome.php</file>
             <file>file:/F:/xampp/htdocs/securitywebsite/assets/css/style.css</file>
             <file>file:/F:/xampp/htdocs/securitywebsite/application/views/sharedviews/bottom.php</file>
             <file>file:/F:/xampp/htdocs/securitywebsite/application/views/sharedviews/navigation.php</file>
             <file>file:/F:/xampp/htdocs/securitywebsite/application/views/sharedviews/carousal.php</file>
-            <file>file:/F:/xampp/htdocs/securitywebsite/application/views/index.html</file>
             <file>file:/F:/xampp/htdocs/securitywebsite/application/views/welcome_message.php</file>
         </group>
     </open-files>

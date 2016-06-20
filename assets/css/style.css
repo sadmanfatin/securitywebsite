@@ -1,91 +1,61 @@
+.theme-color{
+   color : 99BF38;
+   background-color: 99BF38;
+}
 
-
- 
-  /* --------------------------------  nav bar  --------------------------------*/
-
+.theme-font{
+    
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+   color: #666666;
+   
+   
+}
 
 .navbar{
  margin: 0px; 
  z-index: 10;
  font-size: 11px !important;
- letter-spacing: 3px;
- width: 100%;
-
-}
-
-.navbar-wrapper{
- 
-  padding-top: 50px;
-  background-color: black;
-
-position: static;
-width: 100%;
-
-}
-
-
-
-
-  /* --------------------------------  carousel  --------------------------------*/
-
-#carousel{
-}
-#myCarousel{
-
-  z-index: -10;
+  letter-spacing: 4px;
+  width: 100%;
+  
   
 
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 100%;
+
+ .affix {
+      top: 0;
+      width: 100%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      
+  }
+  .affix-top {
+      position: static;
+      top: -35px;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+      
+  }
+  
+ 
+  .carousel{
+      z-index: 5;
+      
+      
+  }
+  
+  
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
     max-height: 680px;
-    margin: auto;
     min-height: 300px;
     min-width: 450px;
     -webkit-filter: grayscale(80%);
     filter: grayscale(80%);
     opacity: .9;
-}
-
-#carousel-li{
-background-image: url("assets/images/Untitled.jpg");
-}
-
-#img-text {
-
-    height: 200px;
-    width: 100%; 
-    color: white;
-    background-color: black;
-    opacity: .5;
-    position:absolute;
-    left: 0px;
-    top: 200px;
-}
-
-.affix {
-    top: 0;
-    width: 100%;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-   
-    
-}
-
-.affix-top {
-    position: static;
-    top: -35px;
-
-
-}
-
-.affix + .container-fluid {
-  /*  padding-top: 70px;   */
-
-}
-
-.aaa{
-
-  background-color: red;
-}
+  }

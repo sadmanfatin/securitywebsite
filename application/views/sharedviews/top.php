@@ -11,8 +11,13 @@
         <script src="http://localhost:82/securitywebsite/assets/js/bootstrap.js"></script>
         <script src="http://localhost:82/securitywebsite/assets/js/new.js"></script>
         <script src="http://localhost:82/securitywebsite/assets/js/npm.js"></script>
+        <script src="https://use.fontawesome.com/3db99c3511.js"></script>
 
 
     </head>
     <body>
-
+         <?php 
+            include 'navigation.php'; 
+            include 'carousal.php'; 
+              
+          ?>
